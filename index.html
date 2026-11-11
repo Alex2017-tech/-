@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ed">
+  <meta name="description" content="Домашние рецепты и идеи для вкусной еды каждый день.">
+  <title>Домашняя кухня — рецепты на каждый день</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Домашняя кухня — главная">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <span>домашняя<span class="brand-accent">кухня</span></span>
+    </a>
+    <nav class="header-nav" aria-label="Основная навигация">
+      <a href="#categories">Подборки</a>
+      <a href="#recipe">Рецепт дня</a>
+      <a href="#snacks">Перекус</a>
+    </nav>
+    <a class="header-note" href="#recipe"><span aria-hidden="true">✦</span> Готовим с удовольствием</a>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Просто, вкусно, по-домашнему</p>
+        <h1 id="page-title">Идеи для<br><span>вкусного дня</span></h1>
+        <p class="intro-text">Любимые рецепты, понятные шаги и немного вдохновения для вашей кухни.</p>
+        <a class="primary-link" href="#recipe">Открыть рецепт <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="intro-art" aria-label="Иллюстрация тарелки с картофелем фри" role="img">
+        <span class="art-sparkle sparkle-one" aria-hidden="true">✳</span>
+        <span class="art-sparkle sparkle-two" aria-hidden="true">✦</span>
+        <div class="plate">
+          <div class="fries fries-one"></div>
+          <div class="fries fries-two"></div>
+          <div class="fries fries-three"></div>
+          <div class="fries fries-four"></div>
+          <div class="fries fries-five"></div>
+          <div class="fries fries-six"></div>
+          <div class="dip"></div>
+        </div>
+        <span class="art-caption">с хрустящей корочкой</span>
+      </div>
+    </section>
+
+    <section class="categories" id="categories" aria-labelledby="categories-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Выбирайте по настроению</p>
+          <h2 id="categories-title">Что будем готовить?</h2>
+        </div>
+        <span class="section-count">Подборки <span>01 — 07</span></span>
+      </div>
+      <div class="category-grid">
+        <a class="category-card category-featured" href="#recipe">
+          <span class="category-icon" aria-hidden="true">♨</span>
+          <span class="category-label">Рецепты на каждый день</span>
+          <span class="category-title">Домашние<br>блюда</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="category-card category-breakfast" href="#breakfast">
+          <span class="category-icon" aria-hidden="true">☀</span>
+          <span class="category-label">Начинаем с хорошего</span>
+          <span class="category-title">Завтраки</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="category-card category-lunch" href="#lunch">
+          <span class="category-icon" aria-hidden="true">♡</span>
+          <span class="category-label">Сытно и просто</span>
+          <span class="category-title">Обеды</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="category-card category-baking" href="#baking">
+          <span class="category-icon" aria-hidden="true">✿</span>
+          <span class="category-label">Для уютных вечеров</span>
+          <span class="category-title">Выпечка</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="category-card category-desserts" href="#desserts">
+          <span class="category-icon" aria-hidden="true">❋</span>
+          <span class="category-label">Что-нибудь сладкое</span>
+          <span class="category-title">Десерты</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="category-card category-drinks" href="#drinks">
+          <span class="category-icon" aria-hidden="true">◉</span>
+          <span class="category-label">Освежающие идеи</span>
+          <span class="category-title">Напитки</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="category-card category-snacks" href="#snacks">
+          <span class="category-icon" aria-hidden="true">▰</span>
+          <span class="category-label">На скорую руку</span>
+          <span class="category-title">Перекус</span>
+          <span class="category-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="recipe-section breakfast-section" id="breakfast" aria-labelledby="breakfast-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Завтраки <span class="heading-dot">·</span> Нежный и сытный</p>
+          <h2 id="breakfast-title">Омлет<br><span>с помидорами</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Характеристики рецепта">
+          <span>На сковороде</span>
+          <span>На 4 яйца</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside breakfast-aside">
+          <div class="breakfast-illustration" aria-hidden="true">
+            <span class="omelet-shape"></span>
+            <span class="tomato-slice tomato-one"></span>
+            <span class="tomato-slice tomato-two"></span>
+            <span class="herb herb-one">✦</span>
+            <span class="herb herb-two">✦</span>
+          </div>
+          <p class="aside-kicker">Пышный и нежный</p>
+          <p class="aside-copy">Дайте яйцам и молоку нагреться до комнатной температуры, а готовому омлету немного постоять под крышкой.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>4 порции</strong><small>из 4 яиц</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">♨</span>
+            <span><strong>Огонь ниже среднего</strong><small>готовьте под крышкой</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">С помидорами и тёртым сыром</p>
+                <h3>Омлет на сковороде</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Яйца — 4 шт.</li>
+              <li>Помидоры — 2 шт.</li>
+              <li>Молоко — примерно 60–80 мл (можно заменить сливками или сметаной)</li>
+              <li>Топлёное или сливочное масло — 1–2 ст. л.</li>
+              <li>Твёрдый сыр (сулугуни, моцарелла или другой) — около 40 г</li>
+              <li>Соль и молотый чёрный перец — по вкусу</li>
+              <li>Свежая зелень (укроп, базилик) или щепотка паприки — по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Подготовьте ингредиенты.</strong> Заранее достаньте яйца и молоко из холодильника, чтобы они стали комнатной температуры. Вымойте и обсушите помидоры, нарежьте небольшими кубиками. Плотные или зимние томаты можно слегка обжарить на масле до размягчения — так они отдадут меньше сока.</p></li>
+              <li><span class="step-number">2</span><p><strong>Сделайте яичную массу.</strong> Соедините в миске яйца, молоко, соль и перец. Перемешайте венчиком или вилкой до однородности, не взбивая слишком интенсивно.</p></li>
+              <li><span class="step-number">3</span><p><strong>Приготовьте основу.</strong> Разогрейте масло в сковороде с толстым дном. Выложите помидоры, если не обжаривали их отдельно, и слегка потушите пару минут. Затем залейте яично-молочной смесью.</p></li>
+              <li><span class="step-number">4</span><p><strong>Доведите до готовности.</strong> Готовьте на огне чуть ниже среднего. Периодически аккуратно приподнимайте края лопаткой, чтобы жидкая масса стекала вниз. Когда омлет загустеет, равномерно посыпьте его тёртым сыром.</p></li>
+              <li><span class="step-number">5</span><p><strong>Завершите приготовление.</strong> Накройте сковороду крышкой и прогрейте ещё минуту на медленном огне. Выключите огонь и оставьте омлет под крышкой на 2–3 минуты — так он станет ещё нежнее.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section lunch-section" id="lunch" aria-labelledby="lunch-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Обеды <span class="heading-dot">·</span> Сытная классика</p>
+          <h2 id="lunch-title">Макароны<br><span>по-флотски</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Характеристики рецепта">
+          <span>На 3–4 порции</span>
+          <span>Мясо и паста</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside lunch-aside">
+          <div class="pasta-illustration" aria-hidden="true">
+            <span class="pasta-plate"></span>
+            <span class="pasta-piece pasta-one"></span>
+            <span class="pasta-piece pasta-two"></span>
+            <span class="pasta-piece pasta-three"></span>
+            <span class="pasta-piece pasta-four"></span>
+            <span class="pasta-herb">✦</span>
+          </div>
+          <p class="aside-kicker">Сытно и по-домашнему</p>
+          <p class="aside-copy">Сохраните немного воды после варки — она поможет соединить макароны и мясо в нежную маслянистую текстуру.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>Аль денте</strong><small>не промывайте макароны</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">♨</span>
+            <span><strong>Средний огонь</strong><small>для лука и фарша</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">С фаршем, луком и сливочным маслом</p>
+                <h3>Ингредиенты</h3>
+              </div>
+            </div>
+            <ul class="ingredients-list">
+              <li>Макароны из твёрдых сортов пшеницы — 300 г (лучше полые трубочки, перья или рожки)</li>
+              <li>Фарш (свинина и говядина 1:1 или только говядина) — 400–500 г</li>
+              <li>Репчатый лук — 1 крупная луковица (150–200 г)</li>
+              <li>Сливочное масло — 50 г</li>
+              <li>Растительное масло — 2 ст. л.</li>
+              <li>Соль и чёрный перец — по вкусу</li>
+              <li>Вода из-под макарон — 2–3 ст. л., по желанию</li>
+              <li>Сушёный тимьян или орегано — щепотка, по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Отварите макароны.</strong> В большой кастрюле вскипятите 2,5–3 л воды, посолите (примерно 1 ч. л. с горкой). Засыпьте макароны и варите до состояния аль денте или как любите. Не промывайте. Сохраните около 100 мл отвара, чтобы соединить мясо и макароны.</p></li>
+              <li><span class="step-number">2</span><p><strong>Подготовьте лук.</strong> Нарежьте его мелким кубиком. Разогрейте сковороду, добавьте растительное масло и половину сливочного. Обжаривайте лук на среднем огне 5–7 минут, до прозрачности и лёгкой золотистости.</p></li>
+              <li><span class="step-number">3</span><p><strong>Обжарьте фарш.</strong> Добавьте фарш к луку и разбивайте комочки лопаткой. Готовьте на среднем огне 10–12 минут, пока фарш не потеряет розовый цвет и равномерно не подрумянится. Посолите, поперчите и, по желанию, добавьте тимьян или орегано.</p></li>
+              <li><span class="step-number">4</span><p><strong>Соедините.</strong> Переложите готовые макароны в сковороду к фаршу. Добавьте оставшееся сливочное масло и 2–3 ст. л. отвара. Перемешивайте на слабом огне 2–3 минуты, пока макароны не покроются маслянистой эмульсией.</p></li>
+              <li><span class="step-number">5</span><p><strong>Подавайте.</strong> Разложите по тёплым тарелкам. По желанию добавьте немного тёртого пармезана или свежей зелени.</p></li>
+            </ol>
+          </div>
+
+          <div class="method oven-method">
+            <div class="method-heading">
+              <span class="method-number">02</span>
+              <div>
+                <p class="method-label">Домашние, с сочной мясной начинкой</p>
+                <h3>Пельмени</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты для теста</h4>
+            <ul class="ingredients-list">
+              <li>Пшеничная мука — 500 г и немного для подпыла</li>
+              <li>Ледяная вода — 200 мл</li>
+              <li>Яйцо — 1 шт.</li>
+              <li>Соль — 1 ч. л.</li>
+              <li>Растительное масло — 1 ст. л., по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Ингредиенты для фарша</h4>
+            <ul class="ingredients-list">
+              <li>Говядина — 300 г</li>
+              <li>Свинина — 300 г</li>
+              <li>Репчатый лук — 2 средние луковицы (около 250 г)</li>
+              <li>Ледяная вода — 100–150 мл</li>
+              <li>Соль — 1,5 ч. л. или по вкусу</li>
+              <li>Чёрный молотый перец — 0,5 ч. л.</li>
+              <li>Молотый кориандр или мускатный орех, чеснок — по желанию</li>
+              <li>Сливочное масло — кусочек для подачи</li>
+            </ul>
+
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 1. Замес теста</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Просейте муку в большую миску и добавьте соль.</p></li>
+                <li><span class="step-number">2</span><p>В отдельной ёмкости смешайте яйцо, ледяную воду и масло. Влейте смесь в муку и начните замешивать ложкой, затем руками.</p></li>
+                <li><span class="step-number">3</span><p>Вымешивайте не менее 10–12 минут: тесто должно стать гладким, плотным и перестать липнуть. Если нужно, слегка подсыпьте муки, но не делайте тесто слишком крутым.</p></li>
+                <li><span class="step-number">4</span><p>Сформируйте шар, накройте плёнкой или полотенцем и оставьте при комнатной температуре на 30–40 минут.</p></li>
+              </ol>
+            </div>
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 2. Приготовление фарша</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Пропустите мясо и лук через мясорубку. Для более нежного фарша можно прокрутить дважды.</p></li>
+                <li><span class="step-number">2</span><p>Посолите, поперчите и по желанию добавьте специи.</p></li>
+                <li><span class="step-number">3</span><p>Небольшими порциями влейте ледяную воду и активно вымешивайте фарш 5–7 минут, пока он не станет вязким и однородным.</p></li>
+                <li><span class="step-number">4</span><p>Накройте фарш плёнкой и уберите в холодильник минимум на 30 минут.</p></li>
+              </ol>
+            </div>
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 3. Лепка пельменей</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Разделите тесто на 3–4 части. Остальные части держите под плёнкой, чтобы они не высыхали.</p></li>
+                <li><span class="step-number">2</span><p>Раскатайте часть теста в пласт толщиной 1,5–2 мм и вырежьте стаканом или формой кружки диаметром 6–7 см.</p></li>
+                <li><span class="step-number">3</span><p>Положите в центр каждого кружка примерно 1 ч. л. фарша. Сложите кружок пополам и плотно защипните края.</p></li>
+                <li><span class="step-number">4</span><p>Соедините два конца, чтобы получилось «ушко». Готовые пельмени выкладывайте на присыпанную мукой доску.</p></li>
+                <li><span class="step-number">5</span><p>Для заморозки разложите пельмени в один слой на 2–3 часа, затем пересыпьте в пакет.</p></li>
+              </ol>
+            </div>
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 4. Варка</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>В большой кастрюле доведите до кипения 3–4 л воды, посолите (примерно 1 ст. л.). По желанию добавьте лавровый лист и горошины чёрного перца.</p></li>
+                <li><span class="step-number">2</span><p>Опускайте пельмени в кипящую воду по одному или небольшими партиями, аккуратно помешивая, чтобы они не прилипли ко дну.</p></li>
+                <li><span class="step-number">3</span><p>После всплытия варите на среднем огне 5–7 минут. Время зависит от толщины теста и размера пельменей.</p></li>
+                <li><span class="step-number">4</span><p>Достаньте пельмени шумовкой, сразу добавьте кусочек сливочного масла и аккуратно перемешайте, чтобы они не слиплись.</p></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section" id="recipe" aria-labelledby="recipe-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Домашние блюда <span class="heading-dot">·</span> Рецепт дня</p>
+          <h2 id="recipe-title">Картофель фри<br><span>дома</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Характеристики рецепта">
+          <span>🥔 Простые продукты</span>
+          <span>Без лишнего масла</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside">
+          <div class="aside-illustration" aria-hidden="true">
+            <div class="mini-plate">
+              <span class="mini-fry fry-a"></span>
+              <span class="mini-fry fry-b"></span>
+              <span class="mini-fry fry-c"></span>
+              <span class="mini-fry fry-d"></span>
+              <span class="mini-fry fry-e"></span>
+              <span class="mini-dip"></span>
+            </div>
+          </div>
+          <p class="aside-kicker">Золотистый и хрустящий</p>
+          <p class="aside-copy">Два способа приготовления — выберите тот, который подходит вашей кухне.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>15–30 минут</strong><small>в зависимости от способа</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">♨</span>
+            <span><strong>Аэрогриль или духовка</strong><small>на ваш выбор</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">Быстро и с хрустящей корочкой</p>
+                <h3>В аэрогриле</h3>
+              </div>
+              <span class="method-temp">190–200 °C</span>
+            </div>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Подготовка.</strong> Нарежьте картофель брусками и замочите в холодной воде на 20–30 минут.</p></li>
+              <li><span class="step-number">2</span><p><strong>Сушка.</strong> Тщательно обсушите брусочки бумажным полотенцем.</p></li>
+              <li><span class="step-number">3</span><p><strong>Специи.</strong> Смешайте картофель в миске с сухим чесноком, сладкой паприкой и молотым чёрным перцем. Соль лучше добавлять в самом конце, чтобы не повышать влажность поверхности до запекания.</p></li>
+              <li><span class="step-number">4</span><p><strong>Загрузка.</strong> Выложите картофель в корзину аэрогриля. Не набивайте корзину доверху: воздух должен свободно циркулировать между брусочками.</p></li>
+              <li><span class="step-number">5</span><p><strong>Тепловая обработка.</strong> Установите время приготовления фри в аэрогриле на 15–20 минут при температуре 190–200 °C. Встряхивайте корзину каждые 5–7 минут для равномерного обдува.</p></li>
+            </ol>
+          </div>
+
+          <div class="method oven-method">
+            <div class="method-heading">
+              <span class="method-number">02</span>
+              <div>
+                <p class="method-label">Когда хочется приготовить побольше</p>
+                <h3>В духовке</h3>
+              </div>
+              <span class="method-temp">210–220 °C</span>
+            </div>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Заранее разогрейте духовку и включите конвекцию.</p></li>
+              <li><span class="step-number">2</span><p>Выложите картофель на силиконовый коврик или пергамент с силиконовым покрытием.</p></li>
+              <li><span class="step-number">3</span><p>Разогрейте духовку до 210–220 °C, запекайте картофель 25–30 минут и на 15-й минуте аккуратно переверните бруски лопаткой.</p></li>
+            </ol>
+          </div>
+
+          <a class="source-link" href="https://scanfood.ai/blog/kak-gotovit-kartoshku-fri-bez-masla-doma-i-v-aerogrile/" target="_blank" rel="noopener noreferrer">
+            <span>Источник рецепта</span>
+            <span class="source-domain">scanfood.ai</span>
+            <span class="source-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <div class="method oven-method">
+            <div class="method-heading">
+              <span class="method-number">03</span>
+              <div>
+                <p class="method-label">Сочный фарш с ароматными специями</p>
+                <h3>Люля-кебаб</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Говядина (лопатка или грудинка) — 500 г</li>
+              <li>Свинина (жирная, например шея) — 300 г</li>
+              <li>Сало или курдючный жир — 150–200 г</li>
+              <li>Репчатый лук — 300 г</li>
+              <li>Соль — примерно 1 ч. л. или по вкусу</li>
+              <li>Чёрный молотый перец — 0,5 ч. л.</li>
+              <li>Молотая зира — 0,5 ч. л.</li>
+              <li>Молотый кориандр — 0,5 ч. л.</li>
+              <li>Свежая кинза, петрушка или чеснок — по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление фарша</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Подготовьте мясо.</strong> Зачистите его от плёнок и жил. Пропустите через мясорубку с крупной решёткой или мелко порубите ножом часть мяса для более интересной текстуры.</p></li>
+              <li><span class="step-number">2</span><p><strong>Нарежьте жир.</strong> Слегка подморозьте сало или курдючный жир, затем нарежьте аккуратными кубиками примерно по 0,5 см. Не измельчайте его в мясорубке или блендере, чтобы фарш не стал слишком жидким.</p></li>
+              <li><span class="step-number">3</span><p><strong>Измельчите лук.</strong> Очень мелко порубите его ножом. Не используйте тёрку, мясорубку или блендер: лишний сок может сделать фарш водянистым. При необходимости слегка отожмите лук через сито.</p></li>
+              <li><span class="step-number">4</span><p><strong>Вымесите фарш.</strong> Смешайте мясо, сало, лук, соль и специи. Тщательно вымешивайте руками 10–15 минут, пока масса не станет плотной, вязкой и немного волокнистой. Для упругости несколько раз отбейте фарш о миску или стол.</p></li>
+              <li><span class="step-number">5</span><p><strong>Охладите.</strong> Прижмите фарш в миске, накройте плёнкой и уберите в холодильник минимум на 2 часа, а лучше на 3–4 часа.</p></li>
+            </ol>
+            <h4 class="ingredients-title preparation-title">Формовка</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Смочите руки прохладной водой. Возьмите порцию фарша, скатайте плотный шар и сформируйте колбаску толщиной примерно 2–2,5 см вокруг шампура, прижимая массу, чтобы внутри не осталось воздуха.</p></li>
+              <li><span class="step-number">2</span><p>Плотно примажьте фарш к шампуру с обоих концов, чтобы закрепить колбаску.</p></li>
+            </ol>
+            <h4 class="ingredients-title preparation-title">Приготовление на мангале</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Дождитесь ровного жара от хорошо прогоревших углей без открытого пламени. Расположите шампуры примерно в 10–15 см от углей.</p></li>
+              <li><span class="step-number">2</span><p>В первые минуты часто переворачивайте люля, чтобы схватилась корочка, затем поворачивайте каждые 30–40 секунд. Готовьте примерно 10–15 минут.</p></li>
+            </ol>
+            <h4 class="ingredients-title preparation-title">В духовке</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Разогрейте духовку до 220–240 °C, при желании включите режим «гриль». Выложите шпажки на застеленный фольгой противень.</p></li>
+              <li><span class="step-number">2</span><p>Запекайте примерно 15–20 минут, пару раз перевернув.</p></li>
+            </ol>
+            <h4 class="ingredients-title preparation-title">На сковороде</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Обжарьте колбаски на сильном огне до румяной корочки.</p></li>
+              <li><span class="step-number">2</span><p>Убавьте огонь и доведите до готовности, периодически переворачивая.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section drinks-section" id="drinks" aria-labelledby="drinks-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Напитки <span class="heading-dot">·</span> Освежающий рецепт</p>
+          <h2 id="drinks-title">Мохито<br><span>дома</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Варианты мохито">
+          <span>С газированной водой</span>
+          <span>Два варианта</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside drinks-aside">
+          <div class="drink-illustration" aria-hidden="true">
+            <span class="glass-straw"></span>
+            <span class="glass-mint">✳</span>
+            <span class="glass-lime">◉</span>
+            <span class="glass-ice ice-one"></span>
+            <span class="glass-ice ice-two"></span>
+          </div>
+          <p class="aside-kicker">Лайм, лимон, мята и лёд</p>
+          <p class="aside-copy">Выберите освежающий мохито или приготовьте домашний лимонад.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>1 час настаивания</strong><small>для безалкогольного варианта</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◉</span>
+            <span><strong>Подавайте со льдом</strong><small>в высоких стаканах</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">Лёгкий и освежающий</p>
+                <h3>Безалкогольный мохито</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Лайм, сахар и листья мяты</li>
+              <li>Холодная газированная вода</li>
+              <li>Лёд для подачи</li>
+            </ul>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Нарежьте лайм кружочками.</p></li>
+              <li><span class="step-number">2</span><p>В ступке или высоком стакане растолките лайм с сахаром.</p></li>
+              <li><span class="step-number">3</span><p>Добавьте листья мяты и ещё раз растолките.</p></li>
+              <li><span class="step-number">4</span><p>Переложите смесь в графин, залейте холодной газированной водой и оставьте настаиваться в холодильнике на 1 час.</p></li>
+              <li><span class="step-number">5</span><p>Выложите лёд в стаканы и налейте мохито.</p></li>
+            </ol>
+          </div>
+
+          <div class="method oven-method">
+            <div class="method-heading">
+              <span class="method-number">02</span>
+              <div>
+                <p class="method-label">Классический коктейль с белым ромом</p>
+                <h3>Мохито с ромом</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Лёд — 2 стакана (200 мл)</li>
+              <li>Мята — 12 веточек</li>
+              <li>Лайм — 2 шт.</li>
+              <li>Белый ром — 120 мл (количество можно менять по вкусу)</li>
+              <li>Сахар — 4 ст. л. или по вкусу</li>
+              <li>Газированная вода — 250 мл</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Выжмите сок из одного лайма, а второй нарежьте ломтиками для подачи.</p></li>
+              <li><span class="step-number">2</span><p>Оставьте две самые красивые веточки мяты для подачи. Остальные веточки разомните руками, чтобы высвободить аромат.</p></li>
+              <li><span class="step-number">3</span><p>Положите в шейкер половину льда, ром, сахар, мяту и сок лайма. Хорошо взболтайте.</p></li>
+              <li><span class="step-number">4</span><p>Для сахарной каёмки насыпьте сахар в блюдце, проведите ломтиком лайма по краю стакана и окуните край в сахар. Разложите по высоким стаканам оставшийся лёд, ломтики лайма и листочки мяты.</p></li>
+              <li><span class="step-number">5</span><p>Разлейте коктейль по стаканам, долейте газированную воду и украсьте листочками мяты.</p></li>
+            </ol>
+          </div>
+
+          <div class="method oven-method lemonade-method">
+            <div class="method-heading">
+              <span class="method-number">03</span>
+              <div>
+                <p class="method-label">Освежающий напиток на целый кувшин</p>
+                <h3>Домашний лимонад</h3>
+              </div>
+              <span class="method-temp">1 литр</span>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Лимоны — 3–4 штуки</li>
+              <li>Сахар — 100–150 г, по вкусу</li>
+              <li>Вода — 1 литр: 700 мл холодной и 300 мл для сиропа</li>
+              <li>Лёд — по желанию, для подачи</li>
+              <li>Мята или цедра лимона — по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Подготовьте лимоны.</strong> Тщательно вымойте их тёплой водой и обсушите. Если используете цедру, снимите с одного лимона только тонкий жёлтый слой, без белой горькой части.</p></li>
+              <li><span class="step-number">2</span><p><strong>Выжмите сок.</strong> Выжмите сок из всех лимонов и процедите через сито, чтобы убрать косточки и мякоть. Отставьте сок в сторону.</p></li>
+              <li><span class="step-number">3</span><p><strong>Приготовьте сироп.</strong> Смешайте в небольшой кастрюле 300 мл воды и сахар. Нагревайте на среднем огне, помешивая, пока сахар полностью не растворится. Доведите до лёгкого кипения и снимите с огня. Если добавляете цедру, дайте ей настояться в горячем сиропе 5–10 минут, затем процедите.</p></li>
+              <li><span class="step-number">4</span><p><strong>Смешайте компоненты.</strong> Налейте в кувшин 700 мл холодной воды, добавьте остывший сироп и лимонный сок. Перемешайте.</p></li>
+              <li><span class="step-number">5</span><p><strong>Дайте настояться.</strong> Поставьте кувшин в холодильник на 1–2 часа, чтобы вкус стал более сбалансированным.</p></li>
+              <li><span class="step-number">6</span><p><strong>Подавайте.</strong> Разлейте лимонад по стаканам, добавьте лёд и украсьте дольками лимона и веточками мяты.</p></li>
+            </ol>
+            <h4 class="ingredients-title preparation-title">Варианты и советы</h4>
+            <ul class="ingredients-list tips-list">
+              <li><strong>Газированный:</strong> замените обычную воду 1 литром слабогазированной минеральной воды и добавьте её в готовую охлаждённую лимонно-сиропную смесь, чтобы сохранить пузырьки.</li>
+              <li><strong>С мёдом:</strong> используйте примерно 3–4 ст. л. мёда и растворите его в слегка тёплой, не горячей воде.</li>
+              <li><strong>Ягодный:</strong> добавьте 150–200 г ягодного пюре — например, из клубники, малины или смородины.</li>
+              <li><strong>Без горечи:</strong> для аромата используйте только жёлтую часть цедры, не затрагивая белую.</li>
+            </ul>
+          </div>
+
+          <div class="drink-sources">
+            <a class="source-link" href="https://www.russianfood.com/recipes/recipe.php?rid=162852" target="_blank" rel="noopener noreferrer">
+              <span>Безалкогольный рецепт</span>
+              <span class="source-domain">russianfood.com</span>
+              <span class="source-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="source-link" href="https://menunedeli.ru/recipe/moxito/" target="_blank" rel="noopener noreferrer">
+              <span>Мохито с ромом</span>
+              <span class="source-domain">menunedeli.ru</span>
+              <span class="source-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section snacks-section" id="snacks" aria-labelledby="snacks-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Перекус <span class="heading-dot">·</span> Просто и вкусно</p>
+          <h2 id="snacks-title">Хрустящие<br><span>гренки</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Способы приготовления">
+          <span>Аэрогриль</span>
+          <span>Сковорода</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside snacks-aside">
+          <div class="snack-illustration" aria-hidden="true">
+            <span class="toast toast-one"></span>
+            <span class="toast toast-two"></span>
+            <span class="toast toast-three"></span>
+          </div>
+          <p class="aside-kicker">Хрустящие снаружи</p>
+          <p class="aside-copy">Для аэрогриля выбирайте одинаковые кусочки и раскладывайте их в один слой — так горячий воздух обдувает их равномерно.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>12–15 минут</strong><small>в аэрогриле</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">♨</span>
+            <span><strong>170–180 °C</strong><small>температура аэрогриля</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">Чесночные, с хрустящими краями</p>
+                <h3>В аэрогриле</h3>
+              </div>
+              <span class="method-temp">170–180 °C</span>
+            </div>
+            <p class="snack-description">Горячий воздух равномерно циркулирует вокруг хлеба: гренки получаются хрустящими по краям и мягкими внутри, а масла можно использовать меньше.</p>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Бородинский хлеб — 300 г</li>
+              <li>Чеснок — 3 зубчика</li>
+              <li>Оливковое масло — 2–3 ст. л.</li>
+              <li>Соль и чёрный перец — по вкусу</li>
+              <li>Тёртый твёрдый сыр, например пармезан, — по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Нарежьте хлеб длинными ломтиками толщиной около 1 см, затем разрежьте на брусочки. Старайтесь делать кусочки одинаковыми, чтобы они пропеклись равномерно.</p></li>
+              <li><span class="step-number">2</span><p>Очистите чеснок, пропустите через пресс или натрите на мелкой тёрке. Смешайте его с оливковым маслом, солью и перцем.</p></li>
+              <li><span class="step-number">3</span><p>Тщательно смажьте каждый брусочек хлеба смесью со всех сторон. По желанию оставьте заготовки на 20 минут при комнатной температуре, чтобы хлеб пропитался.</p></li>
+              <li><span class="step-number">4</span><p>Выложите брусочки в корзину аэрогриля в один слой, оставляя между ними немного места для циркуляции воздуха.</p></li>
+              <li><span class="step-number">5</span><p>Запекайте при 170–180 °C примерно 12–15 минут. Один раз переверните брусочки примерно через 6 минут.</p></li>
+              <li><span class="step-number">6</span><p>Если хотите добавить сыр, посыпьте им гренки за 2 минуты до окончания приготовления, чтобы он успел расплавиться.</p></li>
+            </ol>
+            <p class="snack-tip"><strong>Совет.</strong> Подставьте под корзину аэрогриля поддон для сбора капель масла.</p>
+            <a class="source-link video-link" href="https://yandex.ru/video/preview/9976386739992810580?path=yandex_alice" target="_blank" rel="noopener noreferrer">
+              <span>Видео с процессом приготовления</span>
+              <span class="source-domain">Открыть видео</span>
+              <span class="source-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="method oven-method">
+            <div class="method-heading">
+              <span class="method-number">02</span>
+              <div>
+                <p class="method-label">Классический вариант с яйцом и молоком</p>
+                <h3>На сковороде</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Батон или белый хлеб — 300 г</li>
+              <li>Яйцо — 1 шт.</li>
+              <li>Молоко — 3–4 ст. л.</li>
+              <li>Соль — щепотка</li>
+              <li>Сахар — 1 ч. л., если хотите сладкие гренки</li>
+              <li>Растительное или сливочное масло — для жарки</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p>Нарежьте хлеб ломтиками толщиной около 1,5–2 см, чтобы они не слишком пропитались яично-молочной смесью.</p></li>
+              <li><span class="step-number">2</span><p>В миске взбейте яйцо с молоком, солью и, если готовите сладкий вариант, сахаром до однородности.</p></li>
+              <li><span class="step-number">3</span><p>Обмакните ломтики хлеба в смесь с обеих сторон.</p></li>
+              <li><span class="step-number">4</span><p>Разогрейте сковороду с маслом. Выложите пропитанные гренки и жарьте на среднем огне до золотистой корочки с каждой стороны.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section baking-section" id="baking" aria-labelledby="baking-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Выпечка <span class="heading-dot">·</span> Сытная домашняя</p>
+          <h2 id="baking-title">Пирожки с мясом<br><span>и джусаем</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Характеристики рецепта">
+          <span>12–15 пирожков</span>
+          <span>Духовка или сковорода</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside baking-aside">
+          <div class="baking-illustration" aria-hidden="true">
+            <span class="pie-shape"></span>
+            <span class="pie-crimp crimp-one"></span>
+            <span class="pie-crimp crimp-two"></span>
+            <span class="pie-crimp crimp-three"></span>
+            <span class="pie-crimp crimp-four"></span>
+            <span class="pie-herb">✦</span>
+          </div>
+          <p class="aside-kicker">Румяные и ароматные</p>
+          <p class="aside-copy">Дайте тесту хорошо подняться, а начинке — остыть до тёплого состояния перед лепкой.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>12–15 штук</strong><small>из указанного количества теста</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">♨</span>
+            <span><strong>Два способа</strong><small>запечь или пожарить</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">Мягкое дрожжевое тесто</p>
+                <h3>Ингредиенты для теста</h3>
+              </div>
+            </div>
+            <ul class="ingredients-list">
+              <li>Молоко — 250 мл</li>
+              <li>Сухие дрожжи — 7 г (или 20 г свежих)</li>
+              <li>Сахар — 1 ст. л.</li>
+              <li>Соль — 1 ч. л.</li>
+              <li>Яйцо — 1 шт.</li>
+              <li>Растительное масло — 30 мл</li>
+              <li>Мука — примерно 500–550 г, ориентируйтесь на консистенцию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Ингредиенты для начинки</h4>
+            <ul class="ingredients-list">
+              <li>Фарш (говядина со свининой или только говядина) — 400 г</li>
+              <li>Джусай — 150–200 г</li>
+              <li>Репчатый лук — 1 крупная луковица (150–200 г)</li>
+              <li>Сливочное масло — 30–40 г или растительное масло — 2 ст. л.</li>
+              <li>Соль и чёрный перец — по вкусу</li>
+              <li>Зира или молотый кориандр — щепотка, по желанию</li>
+              <li>Бульон или вода — 2–3 ст. л., по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 1. Замес теста</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Подогрейте молоко до 35–40 °C. Добавьте сахар и дрожжи, перемешайте и оставьте на 10–15 минут, пока не появится пенная шапочка.</p></li>
+                <li><span class="step-number">2</span><p>Просейте муку в миску и добавьте соль. В отдельной миске слегка взбейте яйцо с маслом.</p></li>
+                <li><span class="step-number">3</span><p>Влейте в муку дрожжевую и яичную смеси. Замесите тесто сначала лопаткой, затем руками. Вымешивайте 8–10 минут, пока оно не станет гладким и не будет сильно липнуть к рукам. Если нужно, добавьте ещё 1–2 ст. л. муки, не забивая тесто.</p></li>
+                <li><span class="step-number">4</span><p>Накройте тесто полотенцем и поставьте в тёплое место на 1,5–2 часа, чтобы оно увеличилось в 2–3 раза.</p></li>
+              </ol>
+            </div>
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 2. Приготовление начинки</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Нарежьте лук мелким кубиком и обжарьте на масле до прозрачности и лёгкой золотистости.</p></li>
+                <li><span class="step-number">2</span><p>Добавьте фарш, разбивая комочки лопаткой. Обжарьте до изменения цвета, затем убавьте огонь и тушите до готовности примерно 12–15 минут. Посолите, поперчите и по желанию добавьте специи.</p></li>
+                <li><span class="step-number">3</span><p>Переберите джусай, удалите жёсткие стебли, промойте и обсушите. Нарежьте кусочками длиной 1,5–2 см.</p></li>
+                <li><span class="step-number">4</span><p>Смешайте готовый фарш с джусаем. Для сочной начинки добавьте 2–3 ст. л. бульона или воды. Остудите начинку до тёплого состояния.</p></li>
+              </ol>
+            </div>
+            <div class="baking-step-group">
+              <h4 class="baking-step-title">Шаг 3. Формовка пирожков</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Когда тесто подойдёт, обомните его и разделите на кусочки по 50–60 г. Скатайте шарики.</p></li>
+                <li><span class="step-number">2</span><p>Раскатайте каждый шарик в лепёшку толщиной около 5 мм. Положите в центр 1–1,5 ст. л. начинки.</p></li>
+                <li><span class="step-number">3</span><p>Защипните края, формируя пирожок. По шву можно сделать «косичку».</p></li>
+                <li><span class="step-number">4</span><p>Для выпечки выложите пирожки швом вниз на противень. Перед жаркой или выпечкой оставьте их под полотенцем на 20–30 минут для расстойки.</p></li>
+              </ol>
+            </div>
+            <div class="baking-step-group baking-method-group">
+              <h4 class="baking-step-title">Шаг 4. Выпечка или жарка</h4>
+              <h4 class="ingredients-title">В духовке</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Разогрейте духовку до 180–190 °C.</p></li>
+                <li><span class="step-number">2</span><p>Выложите пирожки на противень с пергаментом. Смажьте верх взбитым яйцом или молоком, чтобы корочка стала румяной.</p></li>
+                <li><span class="step-number">3</span><p>Выпекайте 20–25 минут до золотистого цвета.</p></li>
+              </ol>
+              <h4 class="ingredients-title preparation-title">На сковороде</h4>
+              <ol class="steps">
+                <li><span class="step-number">1</span><p>Налейте в сковороду растительное масло слоем около 1 см и разогрейте.</p></li>
+                <li><span class="step-number">2</span><p>Жарьте пирожки на среднем огне по 3–4 минуты с каждой стороны до румяной корочки. При необходимости убавьте огонь и накройте крышкой на 1–2 минуты, чтобы фарш хорошо прогрелся.</p></li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="method oven-method">
+            <div class="method-heading">
+              <span class="method-number">02</span>
+              <div>
+                <p class="method-label">С творогом и хрустящей сахарной корочкой</p>
+                <h3>Печенье «Гусиные лапки»</h3>
+              </div>
+            </div>
+            <h4 class="ingredients-title">Ингредиенты</h4>
+            <ul class="ingredients-list">
+              <li>Творог (5–9%) — 400 г</li>
+              <li>Холодное сливочное масло — 200 г</li>
+              <li>Пшеничная мука — примерно 300–350 г, добавляйте постепенно</li>
+              <li>Сахар — около 200 г: часть в тесто, часть для обваливания</li>
+              <li>Разрыхлитель — 1 ч. л.</li>
+              <li>Яйцо — 1 шт.</li>
+              <li>Соль — щепотка</li>
+              <li>Ванильный сахар или лимонная цедра — по желанию</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Приготовление</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Подготовьте ингредиенты.</strong> Держите сливочное масло холодным. Если творог влажный, откиньте его на сито, чтобы убрать лишнюю сыворотку.</p></li>
+              <li><span class="step-number">2</span><p><strong>Соедините основу.</strong> Смешайте творог с холодным сливочным маслом и разомните до относительно однородной массы. Необязательно добиваться идеальной кремовости.</p></li>
+              <li><span class="step-number">3</span><p><strong>Замесите тесто.</strong> Добавьте яйцо, сахар, разрыхлитель и соль. Постепенно подсыпайте муку и замешивайте мягкое, пластичное тесто. Оно может слегка липнуть, но должно собираться в ком. Не добавляйте слишком много муки, иначе печенье будет плотным.</p></li>
+              <li><span class="step-number">4</span><p><strong>Охладите.</strong> Заверните тесто в плёнку или пакет и уберите в холодильник на 30–40 минут.</p></li>
+              <li><span class="step-number">5</span><p><strong>Сформируйте печенье.</strong> Разделите тесто на части, раскатайте каждую в пласт толщиной около 5 мм и вырежьте кружки диаметром 7–8 см. Обваляйте одну сторону кружка в сахаре, сложите сахарной стороной внутрь, снова обваляйте одну сторону и сложите ещё раз пополам. Слегка прижмите заготовку пальцами или вилкой.</p></li>
+              <li><span class="step-number">6</span><p><strong>Выпекайте.</strong> Разогрейте духовку до 180 °C. Выложите печенье сахарной стороной вверх на противень с пергаментом, оставляя между заготовками немного места. Выпекайте примерно 15–20 минут до золотистого верха и слегка румяных краёв. Не передерживайте, чтобы сахар не подгорел.</p></li>
+              <li><span class="step-number">7</span><p><strong>Остудите.</strong> Дайте печенью немного постоять на противне, затем переложите на решётку. При остывании сахарная корочка станет хрустящей, а внутри печенье останется мягким и слоистым.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recipe-section desserts-section" id="desserts" aria-labelledby="desserts-title">
+      <div class="recipe-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Десерты <span class="heading-dot">·</span> Хрустящее угощение</p>
+          <h2 id="desserts-title">Вафельные<br><span>трубочки</span></h2>
+        </div>
+        <div class="recipe-tags" aria-label="Характеристики рецепта">
+          <span>С варёной сгущёнкой</span>
+          <span>В вафельнице</span>
+        </div>
+      </div>
+
+      <div class="recipe-layout">
+        <aside class="recipe-aside desserts-aside">
+          <div class="dessert-illustration" aria-hidden="true">
+            <span class="wafer-roll wafer-one"></span>
+            <span class="wafer-roll wafer-two"></span>
+            <span class="wafer-roll wafer-three"></span>
+            <span class="wafer-filling"></span>
+          </div>
+          <p class="aside-kicker">Сладкие и хрустящие</p>
+          <p class="aside-copy">Сворачивайте вафли сразу после выпечки: остывшие вафли быстро становятся ломкими.</p>
+          <div class="aside-divider"></div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">◷</span>
+            <span><strong>2–3 минуты</strong><small>на одну вафлю</small></span>
+          </div>
+          <div class="quick-fact">
+            <span class="fact-icon" aria-hidden="true">♨</span>
+            <span><strong>12–15 трубочек</strong><small>из указанного количества теста</small></span>
+          </div>
+        </aside>
+
+        <div class="recipe-content">
+          <div class="method">
+            <div class="method-heading">
+              <span class="method-number">01</span>
+              <div>
+                <p class="method-label">Тонкие вафли из вафельницы</p>
+                <h3>Ингредиенты для теста</h3>
+              </div>
+            </div>
+            <ul class="ingredients-list">
+              <li>Сливочное масло — 200 г</li>
+              <li>Яйца — 5 шт.</li>
+              <li>Сахар — 220 г</li>
+              <li>Ванилин — 1 г, по желанию</li>
+              <li>Пшеничная мука — примерно 250 г, количество зависит от влажности</li>
+            </ul>
+            <h4 class="ingredients-title preparation-title">Начинка</h4>
+            <ul class="ingredients-list">
+              <li>Варёная сгущёнка — 1 банка (около 380 г)</li>
+              <li>Сливочное масло комнатной температуры — 100 г</li>
+            </ul>
+            <p class="snack-description">Для классической начинки взбейте мягкое масло до пышности, постепенно добавьте варёную сгущёнку и перемешайте до однородности. Наполните остывшие трубочки кремом с помощью ложки или кондитерского мешка.</p>
+            <h4 class="ingredients-title preparation-title">Приготовление вафель</h4>
+            <ol class="steps">
+              <li><span class="step-number">1</span><p><strong>Подготовьте масло.</strong> Растопите сливочное масло на медленном огне или в микроволновке, не доводя до кипения. Дайте ему немного остыть — примерно до 35–40 °C: горячее масло может свернуть яйца.</p></li>
+              <li><span class="step-number">2</span><p><strong>Взбейте яйца с сахаром.</strong> В отдельной миске соедините яйца и сахар. Взбейте венчиком или миксером до лёгкой пены и растворения сахара.</p></li>
+              <li><span class="step-number">3</span><p><strong>Соедините ингредиенты.</strong> Влейте остывшее масло в яично-сахарную смесь и тщательно перемешайте.</p></li>
+              <li><span class="step-number">4</span><p><strong>Добавьте муку.</strong> Просейте муку и постепенно вмешайте её, чтобы не было комочков. Тесто должно быть как густая сметана. Если получилось слишком густым, добавьте ложку тёплого молока или воды; если жидким — немного муки.</p></li>
+              <li><span class="step-number">5</span><p><strong>Разогрейте вафельницу.</strong> Перед первой порцией слегка смажьте пластины растительным маслом, если у вафельницы нет антипригарного покрытия.</p></li>
+              <li><span class="step-number">6</span><p><strong>Выпекайте.</strong> Выложите 1–2 столовые ложки теста в центр нижней панели, закройте крышку и выпекайте до золотистого цвета примерно 2–3 минуты, ориентируясь на свою вафельницу.</p></li>
+              <li><span class="step-number">7</span><p><strong>Сформируйте трубочку.</strong> Сразу снимите горячую вафлю лопаткой и сверните в трубочку — пока она горячая, она пластичная. Для формы можно использовать металлический конус или деревянную палочку. Повторите с остальным тестом.</p></li>
+              <li><span class="step-number">8</span><p><strong>Остудите и наполните.</strong> Выложите трубочки на решётку. Когда они полностью остынут и станут хрустящими, наполните их кремом из варёной сгущёнки.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#" aria-label="Домашняя кухня — наверх">
+      <span class="brand-mark" aria-hidden="true">⌂</span>
+      <span>домашняя<span class="brand-accent">кухня</span></span>
+    </a>
+    <p>Пусть дома будет вкусно.</p>
+    <a class="back-to-top" href="#page-title">Наверх ↑</a>
+  </footer>
+</body>
+</html>
